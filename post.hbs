@@ -33,13 +33,13 @@
 <main class="content" role="main">
 	<article class="{{post_class}}">
 		<div class="inner">
-		
+
 			<section class="post-content">
 				{{content}}
 			</section>
-			
+
 			<section class="post-info">
-				
+
 				<div class="post-share">
 					<a class="twitter" href="https://twitter.com/share?text={{title}}&url={{url absolute="true"}}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
 						<i class="ic ic-twitter"></i><span class="hidden">Twitter</span>
@@ -52,13 +52,13 @@
 					</a>
 					<div class="clear"></div>
 				</div>
-				
+
 				<aside class="post-tags">
 					{{tags separator=" "}}
 				</aside>
-				
+
 				<div class="clear"></div>
-				
+
 				{{#author}}
 				<aside class="post-author">
 					{{#if image}}
@@ -75,7 +75,7 @@
 							<span class="post-author-location"><i class="ic ic-location"></i> {{location}}</span>
 						{{/if}}
 						{{#if website}}
-							<span class="post-author-website"><a href="{{website}}"><i class="ic ic-link"></i> Website</a></span>
+							<span class="post-author-website"><a href="{{website}}"><i class="ic ic-link"></i> WWW</a></span>
 						{{/if}}
 					</div>
 					<div class="clear"></div>
@@ -83,10 +83,10 @@
 				{{/author}}
 
 			</section>
-			
+
 
 			<section class="post-comments">
-				<a id="show-disqus" class="post-comments-activate">Show Comments</a>
+				<a id="show-disqus" class="post-comments-activate">Pokaż komentarze</a>
 			    <div id="disqus_thread"></div>
 
 			</section>
